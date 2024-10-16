@@ -15,9 +15,6 @@
     <!-- main content -->
     <main>
         <?php require_once "partials/slider.php"; ?>
-
-
-
         <section class=" px-4 pt-10 pb-4"
             style="background-image: url(./assets/img/banner.png); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
             <div class="flex justify-around">
