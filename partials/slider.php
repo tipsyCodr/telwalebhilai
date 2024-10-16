@@ -10,8 +10,8 @@
         </video>
 
         <!-- Content Overlay -->
-        <div
-            class="content h-[90vh] py-10 bg-black bg-opacity-40 backdrop-blur-sm w-full inset-0 flex justify-center items-center">
+        <div class="content  py-10 bg-black bg-opacity-40 backdrop-blur-sm w-full inset-0 flex justify-center items-center"
+            style="height: 86vh;">
             <div class="text-center p-4 max-w-lg mx-auto">
                 <!-- Logo -->
                 <img class="w-24 md:w-40 lg:w-52 mx-auto" src="./assets/img/logo.png" alt="Logo">
