@@ -1,7 +1,7 @@
 <div class="relative slider w-full h-full">
     <div class="relative w-full">
         <!-- Background Video with Fallback -->
-        <video src="./assets/video/bg-hero1.mp4" autoplay loop muted playsinline
+        <video src="./assets/video/bg-hero1.webm" autoplay loop muted playsinline
             class="w-full h-full object-cover fixed top-0 left-0 -z-10">
             <source src="./assets/video/bg-hero1.webm" type="video/webm">
             <source src="./assets/video/bg-hero1.mp4" type="video/mp4">
