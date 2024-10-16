@@ -1,0 +1,15 @@
+{
+  "name": "telwale-telghani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./assets/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./assets/css/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
