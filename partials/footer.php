@@ -64,7 +64,8 @@
 
         </div>
         <p class="mt-8 text-base leading-6 text-center text-black">
-            &copy; <?php echo date('Y'); ?> <a href="https://pathideamultiskill.com/"> Path Idea Multiskill</a> . All
+            &copy; <?php echo date('Y'); ?> <a class="underline" href="https://pathideamultiskill.com/"> Path Idea
+                Multiskill</a> . All
             rights reserved.
         </p>
     </div>
