@@ -695,6 +695,10 @@ video {
   height: 100%;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1295,6 +1299,14 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:w-1\/2 {
