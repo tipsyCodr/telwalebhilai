@@ -48,12 +48,12 @@
         class="shadow flex flex-col justify-center items-center mobile-nav gap-1 py-4 bg-yellow-400 w-full z-10">
         <a href="/"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Home</a>
-        <a href="#pricing"
+        <a href="about.php"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">About</a>
 
-        <a href="https://docs.pingping.io" target="_blank"
+        <a href="products.php" target="_blank"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Products</a>
-        <a href="https://docs.pingping.io" target="_blank"
+        <a href="contact.php" target="_blank"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Contact
             Us</a>
     </div>
