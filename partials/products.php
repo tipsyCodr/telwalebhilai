@@ -134,7 +134,7 @@
         </div>
     </div>
 
-    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-20">
+    <div class="flex flex-row flex-wrap items-center justify-center gap-20">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Sunflower Oil </h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -180,7 +180,7 @@
         </div>
     </div>
 
-    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-20">
+    <div class="flex flex-row flex-wrap items-center justify-center gap-20">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Special Hair Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
