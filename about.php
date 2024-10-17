@@ -43,6 +43,15 @@
                         preservatives.
                     </p>
 
+                    <p class="mt-4 text-lg  leading-relaxed">
+                        Our <strong>FSSAI certification</strong> number is <strong>10523006000177</strong>, and
+                        we're committed to
+                        maintaining the
+                        highest
+                        standards of quality and safety in our production process. This means that you can trust
+                        that
+                        our oils are not only delicious but also safe for consumption.
+                    </p>
                     <div class="py-4 flex flex-col md:flex-row gap-4">
 
                         <a class='border border-white px-6 py-4 hover:bg-orange-600 transition-all hover:text-white text-black uppercase font-bold'
