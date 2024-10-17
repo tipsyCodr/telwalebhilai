@@ -23,9 +23,6 @@
                     </h2>
                     <p class="mt-4 text-lg  leading-relaxed">
                         Now pure oil extracted in front of your eyes is available in your area.
-                        We offer all types of blended tea masalas, garam masala, turmeric, coriander, cumin powder that
-                        are 100% pure.
-                        <br><br>
                         We provide mustard, flaxseed, sesame, linseed, and groundnut oils, which are freshly extracted
                         before you and remain 100% pure with no added substances.
                     </p>
