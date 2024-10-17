@@ -16,7 +16,12 @@
     }
 
     .nav {
-        background-color: #ffd600;
+        /* background-color: #ffd600; */
+        background-image: url('./assets/img/banner.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
         height: 70px;
     }
 </style>
