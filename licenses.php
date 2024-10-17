@@ -33,8 +33,11 @@
         <h1 class="text-3xl font-bold text-center my-5">Licenses</h1>
         <div class="column-sm">
             <div class="card">
-                <iframe class="pdf h-full" src="assets/pdf/license.pdf" width="800" height="500" style="border:none;"
-                    allowfullscreen></iframe>
+                <object data="assets/pdf/license.pdf" type="application/pdf" frameborder="0" width="100%" height="600px"
+                    style="padding: 20px;">
+                    <embed src="https://drive.google.com/file/d/1CRFdbp6uBDE-YKJFaqRm4uy9Z4wgMS7H/preview?usp=sharing"
+                        width="100%" height="600px" />
+                </object>
             </div>
         </div>
     </div>
