@@ -18,9 +18,24 @@
                     cooking without losing its nutritional value.</li>
             </ul>
         </div>
+        <style>
+            .rotateY-180 {
+                transform: rotateY(180deg);
+                transition: all 1s ease-in-out;
+            }
+
+            .rotateY-0 {
+                transform: rotateY(0deg);
+                transition: all 1s ease-in-out;
+            }
+        </style>
+
+
         <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/groundnut.png"
-                alt="Groundnut Oil">
+            <img class=" rotate rotateY-0 object-contain w-[300px] md:w-[500px]"
+                src="./assets/img/products/groundnut.png" alt="Groundnut Oil">
+            <!-- <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/groundnut.png" alt="reversed"
+                style="transform: rotateY(0deg)"> -->
         </div>
     </div>
 

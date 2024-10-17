@@ -14,6 +14,11 @@
         margin: 0 auto;
         aspect-ratio: 210/297;
     }
+
+    .nav {
+        background-color: #ffd600;
+        height: 70px;
+    }
 </style>
 
 <body>
@@ -23,8 +28,7 @@
         <h1 class="text-3xl font-bold text-center my-5">Licenses</h1>
         <div class="column-sm">
             <div class="card">
-                <object class="pdf h-full" data="assets/pdf/license.pdf" width="800" height="500">
-                </object>
+                <embed class="pdf h-full" src="assets/pdf/license.pdf" width="800" height="500" type="application/pdf">
             </div>
         </div>
     </div>

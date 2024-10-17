@@ -1,5 +1,5 @@
 <div :class="{ 'bg-yellow-400 transition duration-150 ease-in-out': open }"
-    class="absolute top-0 inset-x-0 z-20 bg-transparent" x-data="{ open: false }">
+    class="nav absolute top-0 inset-x-0 z-20 bg-transparent" x-data="{ open: false }">
     <nav class="relative flex items-center justify-between sm:h-10 md:justify-center p-2 md:py-6 md:px-4 mt-2">
         <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
             <div class="flex items-center justify-between w-full md:w-auto">
