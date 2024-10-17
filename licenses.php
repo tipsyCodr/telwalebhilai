@@ -28,7 +28,8 @@
         <h1 class="text-3xl font-bold text-center my-5">Licenses</h1>
         <div class="column-sm">
             <div class="card">
-                <embed class="pdf h-full" src="assets/pdf/license.pdf" width="800" height="500" type="application/pdf">
+                <iframe class="pdf h-full" src="assets/pdf/license.pdf" width="800" height="500" style="border:none;"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
