@@ -18,7 +18,7 @@
         <section class="  "
             style="background-image: url(./assets/img/banner.png); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
             <div class="px-4 pt-10 pb-4 bg-gradient-to-r from-transparent to-[#000000d9]">
-                <div class="flex justify-around ">
+                <div class="flex flex-wrap justify-around ">
                     <div class=" max-w-xl ">
                         <h2 class="text-3xl font-bold text-black ">About Us:
                         </h2>
