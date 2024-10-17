@@ -1,5 +1,5 @@
 <section class="flex flex-col gap-32 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
-    <div class="flex flex-row flex-wrap items-center justify-center gap-10">
+    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-10">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Groundnut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">

@@ -15,35 +15,44 @@
     <!-- main content -->
     <main>
         <?php require_once "partials/slider.php"; ?>
-        <section class=" px-4 pt-10 pb-4"
+        <section class="  "
             style="background-image: url(./assets/img/banner.png); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
-            <div class="flex justify-around">
-                <div class=" max-w-xl ">
-                    <h2 class="text-3xl font-bold text-black ">About Us:
-                    </h2>
-                    <p class="mt-4 text-lg  leading-relaxed">
-                        Now pure oil extracted in front of your eyes is available in your area.
-                        We provide Groundnut, Mustard, Coconut, Sesame(tilli), Flaxseed (alsi),
-                        Sunflower,Badam(almond),Special Hair Oil, which
-                        are
-                        freshly
-                        extracted
-                        before you and remain 100% pure with no added substances.
-                    </p>
-
-                    <div class="py-4 flex flex-col md:flex-row gap-4">
-                        <a class='bg-orange-400 px-6 py-4 hover:bg-orange-600 transition-all   text-white uppercase font-bold'
-                            href="#">
-                            Read more
-                        </a>
-                        <a class='border border-white px-6 py-4  hover:bg-orange-600 transition-all hover:text-white  text-black uppercase font-bold'
-                            href="#">
-                            Contact Us
-                        </a>
+            <div class="px-4 pt-10 pb-4 bg-gradient-to-r from-transparent to-[#000000d9]">
+                <div class="flex justify-around ">
+                    <div class=" max-w-xl ">
+                        <h2 class="text-3xl font-bold text-black ">About Us:
+                        </h2>
+                        <p class="mt-4 text-lg  leading-relaxed">
+                            We're proud to say that our oil extraction process is FSSAI certified, ensuring that every
+                            bottle of our oil is not only 100% pure but also meets the highest standards of quality and
+                            safety. We provide Groundnut, Mustard, Coconut, Sesame (tilli), Flaxseed (alsi),
+                            Sunflower, Badam (almond), and Special Hair Oil, which are freshly
+                            extracted before you and remain 100% pure with no added substances.
+                        </p>
+                        <p class="mt-4 text-lg  leading-relaxed">
+                            Our <strong>FSSAI certification</strong> number is <strong>10523006000177</strong>, and
+                            we're committed to
+                            maintaining the
+                            highest
+                            standards of quality and safety in our production process. This means that you can trust
+                            that
+                            our oils are not only delicious but also safe for consumption.
+                        </p>
+                        <div class="py-4 flex flex-col md:flex-row gap-4">
+                            <a class='bg-orange-400 px-6 py-4 hover:bg-orange-600 transition-all   text-white uppercase font-bold'
+                                href="#">
+                                Read more
+                            </a>
+                            <a class='border border-white px-6 py-4  hover:bg-orange-600 transition-all hover:text-white  text-black uppercase font-bold'
+                                href="#">
+                                Contact Us
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="">
-
+                    <div class="">
+                        <img class='animate__animated  animate__fadeInRight h-[470px] rounded-xl hover:scale-105 transition-transform duration-700'
+                            src="./assets/img/machine.jpg" alt="Cold Press Machine">
+                    </div>
                 </div>
             </div>
 
