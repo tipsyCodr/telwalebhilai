@@ -136,7 +136,7 @@
 
     <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-20">
         <div class="w-96">
-            <h2 class="text-3xl font-bold text-black">Sunflower Oil (Alsi Oil)</h2>
+            <h2 class="text-3xl font-bold text-black">Sunflower Oil </h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Sunflower oil is a light, neutral-tasting oil made from sunflower seeds. It’s rich in Vitamin E and low
                 in saturated fats, making it ideal for cooking and frying. Its high smoke point ensures the retention of
@@ -151,7 +151,8 @@
             </ul>
         </div>
         <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/alsi.png" alt="Groundnut Oil">
+            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/sunflower.png"
+                alt="Groundnut Oil">
         </div>
     </div>
 
@@ -174,7 +175,8 @@
             </ul>
         </div>
         <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/alsi.png" alt="Groundnut Oil">
+            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/almond.png"
+                alt="Groundnut Oil">
         </div>
     </div>
 
@@ -199,7 +201,8 @@
             </ul>
         </div>
         <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/alsi.png" alt="Groundnut Oil">
+            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/hairoil.png"
+                alt="Groundnut Oil">
         </div>
     </div>
 
