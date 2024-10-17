@@ -23,7 +23,11 @@
                     </h2>
                     <p class="mt-4 text-lg  leading-relaxed">
                         Now pure oil extracted in front of your eyes is available in your area.
-                        We provide mustard, flaxseed, sesame, linseed, and groundnut oils, which are freshly extracted
+                        We provide Groundnut, Mustard, Coconut, Sesame(tilli), Flaxseed (alsi),
+                        Sunflower,Badam(almond),Special Hair Oil, which
+                        are
+                        freshly
+                        extracted
                         before you and remain 100% pure with no added substances.
                     </p>
 
