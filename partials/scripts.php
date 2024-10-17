@@ -4,7 +4,7 @@
     integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 <script>
     document.querySelectorAll(".rotate").forEach(el => {
-        el.addEventListener("click", () => {
+        el.addEventListener("mouseover", () => {
             if (!el.classList.contains("rotateY-180")) {
                 el.classList.add("rotateY-180");
                 el.classList.remove("rotateY-0");
