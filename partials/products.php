@@ -62,11 +62,15 @@
             height: 300px;
         }
     }
+
+    li {
+        white-space: wrap;
+    }
 </style>
 <section class="flex flex-col gap-40 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse  flex-wrap  justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Groundnut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Groundnut oil is ideal for frying and cooking, offering a subtle, nutty flavor. It is rich in
@@ -106,7 +110,7 @@
     </div>
 
     <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Mustard Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Rich in antioxidants and Omega-3 fatty acids, our cold-pressed mustard oil is a powerhouse
@@ -152,7 +156,7 @@
 
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap  justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Coconut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Cold-pressed coconut oil is rich in nutrients and antioxidants, making it ideal for cooking,
@@ -194,7 +198,7 @@
 
 
     <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Sesame Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Our pure sesame oil is packed with antioxidants and essential nutrients that improve heart
@@ -236,7 +240,7 @@
 
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Flaxseed Oil (Alsi Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Known for its high content of Omega-3 fatty acids, flaxseed oil supports brain health, reduces
@@ -275,7 +279,7 @@
 
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Sunflower Oil </h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Sunflower oil is a light, neutral-tasting oil made from sunflower seeds. It’s rich in Vitamin E and low
@@ -311,7 +315,7 @@
 
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">ALmond Oil (Badam Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Badam (almond) oil is known for its rich, nourishing properties. Extracted from raw almonds, this oil is
@@ -347,7 +351,7 @@
 
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-10 ">
-        <div class="w-96">
+        <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Special Hair Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Special Hair Oil is a blend of natural oils designed to nourish, strengthen, and revitalize your hair.
