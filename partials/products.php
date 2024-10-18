@@ -89,8 +89,12 @@
                         <img class="object-contain" src="./assets/img/products/groundnut.png" alt="Groundnut Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/groundnut.png"
-                            alt="Groundnut Oil">
+                        <a href="./assets/img/products/report/groundnut.png" data-lightbox="image-1"
+                            data-title="Groundnut Oil">
+                            <img class="object-contain" src="./assets/img/products/report/groundnut.png"
+                                alt="Groundnut Oil">
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -131,7 +135,11 @@
                         <img class="object-contain" src="./assets/img/products/mustard.png" alt="Mustard Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/mustard.png" alt="Mustard Oil">
+                        <a href="./assets/img/products/report/mustard.png" data-lightbox="image-1"
+                            data-title="mustard Oil">
+                            <img class="object-contain" src="./assets/img/products/report/mustard.png"
+                                alt="Mustard Oil">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -167,7 +175,11 @@
                         <img class="object-contain" src="./assets/img/products/coconut.png" alt="Coconut Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/coconut.png" alt="Coconut Oil">
+                        <a href="./assets/img/products/report/coconut.png" data-lightbox="image-1"
+                            data-title="coconut Oil">
+                            <img class="object-contain" src="./assets/img/products/report/coconut.png"
+                                alt="Coconut Oil">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -206,7 +218,10 @@
                         <img class="object-contain" src="./assets/img/products/sesame.png" alt="Sesame Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/sesame.png" alt="Sesame Oil">
+                        <a href="./assets/img/products/report/sesame.png" data-lightbox="image-1"
+                            data-title="Sesame Oil">
+                            <img class="object-contain" src="./assets/img/products/report/sesame.png" alt="Sesame Oil">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -243,7 +258,9 @@
                         <img class="object-contain" src="./assets/img/products/alsi.png" alt="alsi Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/alsi.png" alt="alsi Oil">
+                        <a href="./assets/img/products/report/alsi.png" data-lightbox="image-1" data-title="Alsi Oil">
+                            <img class="object-contain" src="./assets/img/products/report/alsi.png" alt="alsi Oil">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -275,8 +292,11 @@
                         <img class="object-contain" src="./assets/img/products/sunflower.png" alt="sunflower Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/sunflower.png"
-                            alt="sunflower Oil">
+                        <a href="./assets/img/products/report/sunflower.png" data-lightbox="image-1"
+                            data-title="sunflower Oil">
+                            <img class="object-contain" src="./assets/img/products/report/sunflower.png"
+                                alt="sunflower Oil">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -308,7 +328,10 @@
                         <img class="object-contain" src="./assets/img/products/almond.png" alt="almond Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/almond.png" alt="almond Oil">
+                        <a href="./assets/img/products/report/almond.png" data-lightbox="image-1"
+                            data-title="almond Oil">
+                            <img class="object-contain" src="./assets/img/products/report/almond.png" alt="almond Oil">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -343,7 +366,11 @@
                         <img class="object-contain" src="./assets/img/products/hairoil.png" alt="hairoil Oil">
                     </div>
                     <div class="flip-card-back flex items-center">
-                        <img class="object-contain" src="./assets/img/products/report/hairoil.png" alt="hairoil Oil">
+                        <a href="./assets/img/products/report/hairoil.png" data-lightbox="image-1"
+                            data-title="Hairoil Oil">
+                            <img class="object-contain" src="./assets/img/products/report/hairoil.png"
+                                alt="Hairoil Oil">
+                        </a>
                     </div>
                 </div>
             </div>
