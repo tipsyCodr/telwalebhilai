@@ -3,8 +3,10 @@
     .flip-card {
         background-color: transparent;
         width: 500px;
-        height: 200px;
+        height: 500px;
         border: 1px solid #f1f1f1;
+        border-radius: 20px;
+        padding: 10px;
         perspective: 1000px;
         /* Remove this if you don't want the 3D effect */
     }
@@ -53,7 +55,7 @@
 
         .flip-card {
             width: 300px;
-            height: 200px;
+            height: 300px;
         }
 
         .flip-card-back {
@@ -62,8 +64,8 @@
     }
 </style>
 <section class="flex flex-col gap-40 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse  flex-wrap  justify-center gap-30 "
-        style="gap: 140px">
+    <div
+        class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse  flex-wrap  justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Groundnut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -86,13 +88,13 @@
         <div class="img ">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/groundnut.png" alt="Groundnut Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/groundnut.webp" alt="Groundnut Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/groundnut.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/groundnut.webp" data-lightbox="image-1"
                             data-title="Groundnut Oil">
-                            <img class="object-contain" src="./assets/img/products/report/groundnut.png"
+                            <img class="object-contain" src="./assets/img/products/report/groundnut.webp"
                                 alt="Groundnut Oil">
                         </a>
 
@@ -103,8 +105,7 @@
 
     </div>
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-30 "
-        style="gap: 140px">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Mustard Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -133,13 +134,13 @@
         <div class="img ">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/mustard.png" alt="Mustard Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/mustard.webp" alt="Mustard Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/mustard.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/mustard.webp" data-lightbox="image-1"
                             data-title="mustard Oil">
-                            <img class="object-contain" src="./assets/img/products/report/mustard.png"
+                            <img class="object-contain" src="./assets/img/products/report/mustard.webp"
                                 alt="Mustard Oil">
                         </a>
                     </div>
@@ -149,8 +150,8 @@
 
     </div>
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap  justify-center gap-30 "
-        style="gap: 140px">
+    <div
+        class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap  justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Coconut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -174,13 +175,13 @@
         <div class="img ">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/coconut.png" alt="Coconut Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/coconut.webp" alt="Coconut Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/coconut.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/coconut.webp" data-lightbox="image-1"
                             data-title="coconut Oil">
-                            <img class="object-contain" src="./assets/img/products/report/coconut.png"
+                            <img class="object-contain" src="./assets/img/products/report/coconut.webp"
                                 alt="Coconut Oil">
                         </a>
                     </div>
@@ -192,8 +193,7 @@
 
 
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-30 "
-        style="gap: 140px">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Sesame Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -218,13 +218,13 @@
         <div class="img ">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/sesame.png" alt="Sesame Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/sesame.webp" alt="Sesame Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/sesame.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/sesame.webp" data-lightbox="image-1"
                             data-title="Sesame Oil">
-                            <img class="object-contain" src="./assets/img/products/report/sesame.png" alt="Sesame Oil">
+                            <img class="object-contain" src="./assets/img/products/report/sesame.webp" alt="Sesame Oil">
                         </a>
                     </div>
                 </div>
@@ -234,8 +234,8 @@
 
     </div>
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-30 "
-        style="gap: 140px">
+    <div
+        class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Flaxseed Oil (Alsi Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -259,12 +259,12 @@
         <div class="img ">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/alsi.png" alt="alsi Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/alsi.webp" alt="alsi Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/alsi.png" data-lightbox="image-1" data-title="Alsi Oil">
-                            <img class="object-contain" src="./assets/img/products/report/alsi.png" alt="alsi Oil">
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/alsi.webp" data-lightbox="image-1" data-title="Alsi Oil">
+                            <img class="object-contain" src="./assets/img/products/report/alsi.webp" alt="alsi Oil">
                         </a>
                     </div>
                 </div>
@@ -273,8 +273,8 @@
 
     </div>
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-30 "
-        style="gap: 140px">
+    <div
+        class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Sunflower Oil </h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -294,13 +294,13 @@
         <div class="img ">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/sunflower.png" alt="sunflower Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/sunflower.webp" alt="sunflower Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/sunflower.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/sunflower.webp" data-lightbox="image-1"
                             data-title="sunflower Oil">
-                            <img class="object-contain" src="./assets/img/products/report/sunflower.png"
+                            <img class="object-contain" src="./assets/img/products/report/sunflower.webp"
                                 alt="sunflower Oil">
                         </a>
                     </div>
@@ -309,8 +309,8 @@
         </div>
     </div>
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-30 "
-        style="gap: 140px">
+    <div
+        class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">ALmond Oil (Badam Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -331,13 +331,13 @@
         <div class="img">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/almond.png" alt="almond Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/almond.webp" alt="almond Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/almond.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/almond.webp" data-lightbox="image-1"
                             data-title="almond Oil">
-                            <img class="object-contain" src="./assets/img/products/report/almond.png" alt="almond Oil">
+                            <img class="object-contain" src="./assets/img/products/report/almond.webp" alt="almond Oil">
                         </a>
                     </div>
                 </div>
@@ -345,8 +345,8 @@
         </div>
     </div>
 
-    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-30 "
-        style="gap: 140px">
+    <div
+        class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-10 ">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Special Hair Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -370,13 +370,13 @@
         <div class="img">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="object-contain" src="./assets/img/products/hairoil.png" alt="hairoil Oil">
+                    <div class="flip-card-front rounded-xl overflow-hidden p-2 shadow-xl">
+                        <img class="object-contain" src="./assets/img/products/hairoil.webp" alt="hairoil Oil">
                     </div>
-                    <div class="flip-card-back flex items-center">
-                        <a href="./assets/img/products/report/hairoil.png" data-lightbox="image-1"
+                    <div class="flip-card-back flex items-center  rounded-xl overflow-hidden p-2">
+                        <a href="./assets/img/products/report/hairoil.webp" data-lightbox="image-1"
                             data-title="Hairoil Oil">
-                            <img class="object-contain" src="./assets/img/products/report/hairoil.png"
+                            <img class="object-contain" src="./assets/img/products/report/hairoil.webp"
                                 alt="Hairoil Oil">
                         </a>
                     </div>

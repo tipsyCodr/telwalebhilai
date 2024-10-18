@@ -16,7 +16,7 @@
     <main>
         <?php require_once "partials/slider.php"; ?>
         <section class="  "
-            style="background-image: url(./assets/img/banner.png); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
+            style="background-image: url(./assets/img/banner.webp); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
             <div class="px-4 pt-10 pb-4 bg-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-[#000000d9]">
                 <div class="flex flex-wrap justify-around ">
                     <div class=" max-w-xl ">

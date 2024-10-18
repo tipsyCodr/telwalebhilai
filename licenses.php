@@ -17,7 +17,7 @@
 
     .nav {
         /* background-color: #ffd600; */
-        background-image: url('./assets/img/banner.png');
+        background-image: url('./assets/img/banner.webp');
         background-size: cover;
         background-attachment: fixed;
         background-position: center;

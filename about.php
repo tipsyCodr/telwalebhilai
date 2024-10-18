@@ -16,7 +16,7 @@
     <main>
         <!-- About Us Section -->
         <section class="px-4 py-32"
-            style="background-image: url(./assets/img/banner.png); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
+            style="background-image: url(./assets/img/banner.webp); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
             <div class="flex justify-around">
                 <div class="max-w-xl">
                     <h2 class="text-3xl font-bold text-black">About Us:</h2>
@@ -82,7 +82,7 @@
                     </ul>
                 </div>
                 <div class="img">
-                    <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/groundnut.png"
+                    <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/groundnut.webp"
                         alt="Groundnut Oil">
                 </div>
             </div>
@@ -92,7 +92,7 @@
         <section class="py-8 px-20 bg-d-300 bg-white bg-opacity-70">
             <div class="flex flex-wrap items-center justify-center gap-10">
                 <div class="img">
-                    <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/sesame.png"
+                    <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/sesame.webp"
                         alt="Sesame Oil">
                 </div>
                 <div class="">

@@ -16,7 +16,7 @@
     <main>
         <!-- About Us Section -->
         <section class="px-4 py-32"
-            style="background-image: url(./assets/img/banner.png); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
+            style="background-image: url(./assets/img/banner.webp); background-size: cover; background-attachment: fixed; background-position:center; background-repeat: no-repeat;">
             <div class="flex justify-around">
                 <div class="max-w-xl">
                     <h2 class="text-3xl font-bold text-black">Contact Us</h2>
