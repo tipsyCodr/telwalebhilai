@@ -28,7 +28,7 @@
                 class="w-full font-bold text-white px-4 py-6 uppercase text-lg hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Licenses</a>
             <a href="products.php"
                 class="w-full font-bold text-white px-4 py-6 uppercase text-lg hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Products</a>
-            <!-- <a href="https://docs.pingping.io" target="_blank"
+            <!-- <a href="https://docs.pingping.io" 
                 class="w-full text-white px-4 py-6 uppercase text-lg hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out text-nowrap">Contact
                 Us</a> -->
         </div>
@@ -53,11 +53,11 @@
         <a href="about.php"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">About</a>
 
-        <a href="products.php" target="_blank"
+        <a href="products.php"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Products</a>
-        <a href="licenses.php" target="_blank"
+        <a href="licenses.php"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Licenses</a>
-        <a href="contact.php" target="_blank"
+        <a href="contact.php"
             class="w-full py-2 px-4 font-medium text-black hover:text-gray-900 hover:bg-yellow-500 transition duration-150 ease-in-out">Contact
             Us</a>
     </div>
