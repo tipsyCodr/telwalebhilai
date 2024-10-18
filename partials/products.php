@@ -316,7 +316,7 @@
     <div
         class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-10 ">
         <div class="max-w-96">
-            <h2 class="text-3xl font-bold text-black">ALmond Oil (Badam Oil)</h2>
+            <h2 class="text-3xl font-bold text-black">Almond Oil (Badam Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
                 Badam (almond) oil is known for its rich, nourishing properties. Extracted from raw almonds, this oil is
                 widely used in skincare and hair care routines, as well as cooking. Its high concentration of Vitamin E
@@ -353,21 +353,26 @@
         class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-10 ">
         <div class="max-w-96">
             <h2 class="text-3xl font-bold text-black">Special Hair Oil</h2>
-            <p class="mt-4 text-lg leading-relaxed">
-                Special Hair Oil is a blend of natural oils designed to nourish, strengthen, and revitalize your hair.
-                Infused with essential nutrients, this oil promotes hair growth, prevents dandruff, and adds shine.
-                Ideal for all hair types, it deeply penetrates the scalp, promoting healthier and thicker hair.
+            <p class="mt-4 text-lg leading-relaxed">Our Special Hair Oil is designed to reduce hair fall, boost growth,
+                and enhance hair vitality. This blend of natural oils hydrates the scalp, prevents dandruff, and
+                strengthens roots. It leaves hair soft, shiny, and voluminous, promoting thicker, longer, and healthier
+                strands. Suitable for all hair types.
             </p>
             <h2 class="font-bold text-2xl py-4">Benefits</h2>
             <ul class="list-disc text-sm leading-normal">
-                <li><strong>Strengthens Hair Roots</strong>: Reduces breakage, promoting healthy and
-                    strong hair growth.</li>
-                <li><strong>Promotes Hair Growth and Thickness</strong>: Flaxseed oil helps to stimulate
-                    hair follicles, promoting thicker and longer hair.</li>
-                <li><strong>Hydrates the Scalp</strong>: Flaxseed oil prevents dandruff and other scalp
-                    irritations by hydrating and nourishing the skin.</li>
-                <li><strong>Adds Natural Shine and Softness</strong>: Flaxseed oil adds a natural shine and
-                    softness to hair, making it look healthy and luscious.</li>
+                <li><b>Reduces Hair Fall:</b> Strengthens hair at the roots, reducing breakage and promoting healthy
+                    growth.
+                </li>
+                <li><b>Improves Hair Growth and Thickness:</b> Flaxseed oil stimulates hair follicles, encouraging
+                    faster,
+                    thicker hair growth.</li>
+                <li><b>Hydrates and Nourishes Scalp:</b> Helps prevent dandruff and dryness by deeply moisturizing the
+                    scalp.
+                </li>
+                <li><b>Adds Natural Shine and Softness:</b> Enhances your hair's natural shine and softness, making it
+                    look
+                    smooth and vibrant.</li>
+            </ul>
             </ul>
         </div>
 
