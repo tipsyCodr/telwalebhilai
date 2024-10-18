@@ -44,9 +44,21 @@
     /* Style the back side */
     .flip-card-back {
         background-color: white;
-        height: 480px;
+        height: 500px;
         color: white;
         transform: rotateY(180deg);
+    }
+
+    @media (max-width: 1090px) {
+
+        .flip-card {
+            width: 300px;
+            height: 200px;
+        }
+
+        .flip-card-back {
+            height: 300px;
+        }
     }
 </style>
 <section class="flex flex-col gap-40 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
