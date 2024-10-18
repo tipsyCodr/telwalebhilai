@@ -1,5 +1,56 @@
-<section class="flex flex-col gap-32 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
-    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-10">
+<style>
+    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+    .flip-card {
+        background-color: transparent;
+        width: 500px;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px;
+        /* Remove this if you don't want the 3D effect */
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        /* Safari */
+        backface-visibility: hidden;
+    }
+
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+        background-color: white;
+        color: black;
+    }
+
+    /* Style the back side */
+    .flip-card-back {
+        background-color: white;
+        height: 480px;
+        color: white;
+        transform: rotateY(180deg);
+    }
+</style>
+<section class="flex flex-col gap-40 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
+    <div class="flex flex-row-reverse flex-wrap  justify-center gap-10">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Groundnut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -18,28 +69,24 @@
                     cooking without losing its nutritional value.</li>
             </ul>
         </div>
-        <style>
-            .rotateY-180 {
-                transform: rotateY(180deg);
-                transition: all 1s ease-in-out;
-            }
 
-            .rotateY-0 {
-                transform: rotateY(0deg);
-                transition: all 1s ease-in-out;
-            }
-        </style>
-
-
-        <div class="img">
-            <img class=" rotate rotateY-0 object-contain w-[300px] md:w-[500px]"
-                src="./assets/img/products/groundnut.png" alt="Groundnut Oil">
-            <!-- <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/groundnut.png" alt="reversed"
-                style="transform: rotateY(0deg)"> -->
+        <div class="img ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/groundnut.png" alt="Groundnut Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/groundnut.png"
+                            alt="Groundnut Oil">
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
-    <div class="flex flex-wrap items-center justify-center gap-10">
+    <div class="flex flex-wrap  justify-center gap-10">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Mustard Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -64,13 +111,23 @@
                     body from infections.</li>
             </ul>
         </div>
-        <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/mustard.png"
-                alt="Groundnut Oil">
+
+        <div class="img ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/mustard.png" alt="Mustard Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/mustard.png" alt="Mustard Oil">
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
-    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-10">
+    <div class="flex flex-row-reverse flex-wrap  justify-center gap-10">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Coconut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -90,15 +147,25 @@
 
             </ul>
         </div>
-        <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/coconut.png"
-                alt="Groundnut Oil">
+
+        <div class="img ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/coconut.png" alt="Coconut Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/coconut.png" alt="Coconut Oil">
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
 
 
-    <div class="flex flex-wrap items-center justify-center gap-10">
+    <div class="flex flex-wrap  justify-center gap-10">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Sesame Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -118,10 +185,22 @@
                     immunity and fighting off infections.</li>
             </ul>
         </div>
-        <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/sesame.png"
-                alt="Groundnut Oil">
+
+
+        <div class="img ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/sesame.png" alt="Sesame Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/sesame.png" alt="Sesame Oil">
+                    </div>
+                </div>
+            </div>
         </div>
+
+
     </div>
 
     <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-20">
@@ -144,9 +223,20 @@
                     increasing good cholesterol (HDL).</li>
             </ul>
         </div>
-        <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/alsi.png" alt="Groundnut Oil">
+
+        <div class="img ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/alsi.png" alt="alsi Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/alsi.png" alt="alsi Oil">
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <div class="flex flex-row flex-wrap items-center justify-center gap-20">
@@ -165,9 +255,19 @@
                 <li>Supports immune system function.</li>
             </ul>
         </div>
-        <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/sunflower.png"
-                alt="Groundnut Oil">
+
+        <div class="img ">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/sunflower.png" alt="sunflower Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/sunflower.png"
+                            alt="sunflower Oil">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -190,8 +290,16 @@
             </ul>
         </div>
         <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/almond.png"
-                alt="Groundnut Oil">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/almond.png" alt="almond Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/almond.png" alt="almond Oil">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -215,9 +323,18 @@
                     softness to hair, making it look healthy and luscious.</li>
             </ul>
         </div>
+
         <div class="img">
-            <img class="object-contain w-[300px] md:w-[500px]" src="./assets/img/products/hairoil.png"
-                alt="Groundnut Oil">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="object-contain" src="./assets/img/products/hairoil.png" alt="hairoil Oil">
+                    </div>
+                    <div class="flip-card-back flex items-center">
+                        <img class="object-contain" src="./assets/img/products/report/hairoil.png" alt="hairoil Oil">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
