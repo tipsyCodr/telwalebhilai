@@ -62,7 +62,8 @@
     }
 </style>
 <section class="flex flex-col gap-40 py-8 px-5 md:px-20 bg-d-300 bg-white bg-opacity-70">
-    <div class="flex flex-row-reverse flex-wrap  justify-center gap-10">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse  flex-wrap  justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Groundnut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -102,7 +103,8 @@
 
     </div>
 
-    <div class="flex flex-wrap  justify-center gap-10">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Mustard Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -147,7 +149,8 @@
 
     </div>
 
-    <div class="flex flex-row-reverse flex-wrap  justify-center gap-10">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap  justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Coconut Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -189,7 +192,8 @@
 
 
 
-    <div class="flex flex-wrap  justify-center gap-10">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap  justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Sesame Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -230,7 +234,8 @@
 
     </div>
 
-    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-20">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Flaxseed Oil (Alsi Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -268,7 +273,8 @@
 
     </div>
 
-    <div class="flex flex-row flex-wrap items-center justify-center gap-20">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Sunflower Oil </h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -303,7 +309,8 @@
         </div>
     </div>
 
-    <div class="flex flex-row-reverse flex-wrap items-center justify-center gap-20">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row-reverse flex-wrap items-center justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">ALmond Oil (Badam Oil)</h2>
             <p class="mt-4 text-lg leading-relaxed">
@@ -338,7 +345,8 @@
         </div>
     </div>
 
-    <div class="flex flex-row flex-wrap items-center justify-center gap-20">
+    <div class="flex flex-col-reverse items-center md:items-start md:flex-row flex-wrap items-center justify-center gap-30 "
+        style="gap: 140px">
         <div class="w-96">
             <h2 class="text-3xl font-bold text-black">Special Hair Oil</h2>
             <p class="mt-4 text-lg leading-relaxed">
