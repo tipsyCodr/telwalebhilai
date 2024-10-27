@@ -32,8 +32,10 @@
             <p class="font-bold px-2 text-center">Contact Us:</p>
             <p><i class="fas fa-envelope"></i> <a href="mailto:telwale@gmail.com"
                     class="text-black hover:text-gray-900">telwale@gmail.com</a></p>
-            <p> <i class="fas fa-phone"></i><a href="tel:+91 94255 55522" class="text-black hover:text-gray-900">+91
-                    94255 55522</a></p>
+            <p> <i class="fas fa-phone"></i><a href="tel:9131923249" class="text-black hover:text-gray-900">+91
+                    91319 23249</a></p>
+            <p> <i class="fas fa-phone"></i><a href="tel:8223970011" class="text-black hover:text-gray-900">+91
+                    82239 70011</a></p>
         </div>
         <div class="flex justify-center mt-8 space-x-6">
             <a href="#" class="text-black hover:text-black">
