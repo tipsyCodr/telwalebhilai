@@ -10,7 +10,7 @@
 </head>
 
 
-<body class="font-poppins">
+<body class="font-poppins" style="overflow-x: hidden;">
     <?php require_once "partials/navbar.php"; ?>
     <!-- main content -->
     <main>
