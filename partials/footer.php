@@ -1,4 +1,23 @@
 <!-- component -->
+ <!-- Floating button  -->
+    <a href="https://wa.me/919131923249" class="bg-green-500 hover:bg-green-700 fixed  z-50 text-white font-bold py-2 px-4 rounded-full" style="bottom:-100px;right:20px;animation: slideInFromBottom 1s ease-in-out forwards;" >
+       <img src="./assets/img/whatsapp.png" class="w-full h-full" style="width: 60px;height: 60px;">
+    </a>
+
+    <style>
+        @keyframes slideInFromBottom {
+            0% {
+                bottom: -100px;
+            }
+            100% {
+                bottom: 20px;
+            }
+        }
+    </style>
+
+ 
+ <!-- Floating button  -->
+
 <!-- Foooter -->
 <section class="bg-yellow-300">
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-4     overflow-hidden sm:px-6 lg:px-8">
@@ -26,7 +45,6 @@
                     Contact Us
                 </a>
             </div>
-
         </nav>
         <div class="flex flex-col justify-center items-center text-base gap-2 leading-6 text-black">
             <p class="font-bold px-2 text-center">Contact Us:</p>
